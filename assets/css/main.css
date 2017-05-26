@@ -114,7 +114,7 @@ header a{
 
 .play{
 	background-color: #00B2A9;
-	padding:100px 0;
+	padding:100px 0 30px 0;
 }
 
 #subheader h2{
@@ -125,9 +125,64 @@ header a{
 	color:#75726C;
 }
 #car-box{
-	padding:110px 210px;
+	padding:90px 200px 80px 200px;
 }
 #cars{
 	background-color: #EDE9E2;
-	height:250px;
+	height:220px;
+	padding:30px 100px;
+	color:#75726C;
+}
+#car1{
+	float:left;
+	padding:30px;
+	font-size: 30px;
+    border-bottom: 2px solid #D0D0D0;
+    margin-left:3px;
+    width:300px;
+    margin-top: 20px;
+    padding:10px 0px;
+}
+#car2{
+	float:right;
+	padding:30px 40px 30px 0;
+	font-size: 30px;
+    border-bottom: 2px solid #D0D0D0;
+    margin-left:3px;
+    width:300px;
+    margin-top: 20px;
+    padding:10px 0px;
+}
+#cOne{
+	background: transparent;
+    border: none;
+}
+#cTwo{
+	background: transparent;
+    border: none;
+}
+#caja-boton{
+	text-align: center;
+	padding:100px 100px 30px 100px;
+}
+#start-btn{
+	padding:12px 200px;
+	background-color: #00B2A9;
+	color:whitesmoke;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border: 0px solid #000000;
+}
+footer{
+	background-color: #75726C;
+	padding:30px 80px;
+	color:whitesmoke;
+	height:500px;
+}
+#sprint{
+	float:left;
+}
+#Links{
+	float:right;
 }
