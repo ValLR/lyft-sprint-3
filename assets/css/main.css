@@ -6,6 +6,128 @@ Colors:
 #75726C;
 #EDE9E2
 */
+* { margin: 0; padding: 0; }
 body{
 	font-family: 'Raleway', sans-serif;
+	margin:0;
+}
+
+/*header + nav*/
+header{
+	height: 40px;
+	background-color:#E54E79;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding:10px 200px 10px 10px;
+
+}
+header nav img{
+	height:40px;
+	width: 55px;
+	float: left;
+	margin-left:18%;
+}
+header nav a:hover{
+	background-color: #E56385;
+}
+
+#top-links{
+	float:right;
+	padding-top:10px;
+	font-size: 15px;
+}
+
+header a{
+	display: inline-block;
+	text-decoration: none;
+	color: #EDE9E2;
+	margin-left:35px;
+
+}
+
+/*seccion 2, sign up*/
+
+.sign{
+	background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:513px;
+	padding:43px 0px 20px 20px;
+}
+
+#turn-box{
+	float:right;
+	background-color:#EDE9E2;
+	margin-top:40px;
+	padding-top:60px;
+	padding-left:50px;
+	height:320px;
+	width:35%;
+}
+#text1{
+	color:#00B2A9;
+	font-weight:bolder;
+	font-size: 25px;
+	margin-bottom:18px;
+}
+#text2{
+	margin-top:0;
+	font-size: 14px;
+	font-weight:lighter;
+	margin-left:3px;
+	color: #75726C;
+}
+#phoneBox{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #D0D0D0;
+    margin-left:3px;
+    width:400px;
+    margin-top: 20px;
+    padding:10px 0px;
+}
+#phoneBox::placeholder{
+	color: #D0D0D0;
+	font-size: 14px;
+}
+#turn-box .boton{
+	margin-top:20px;
+}
+#boton1{
+	padding:14px 15px;
+	background-color: #E56385;
+	color:whitesmoke;
+	width:240px;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border: 0px solid #000000;
+}
+.t2{
+	margin-top: 35px;
+	margin-right:10px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+/*Seccion 2, play with lift*/
+
+.play{
+	background-color: #00B2A9;
+	padding:100px 0;
+}
+
+#subheader h2{
+	background-color:#EDE9E2;
+	padding:21px;
+	text-align: center;
+	font-size: 58px;
+	color:#75726C;
+}
+#car-box{
+	padding:110px 210px;
+}
+#cars{
+	background-color: #EDE9E2;
+	height:250px;
 }
