@@ -174,15 +174,53 @@ header a{
 	-webkit-border-radius: 18px;
 	border: 0px solid #000000;
 }
+/*Footer, última sección*/
 footer{
 	background-color: #75726C;
-	padding:30px 80px;
+	padding:50px 100px;
 	color:whitesmoke;
-	height:500px;
+	height:280px;
+	text-align: justify;
 }
+
 #sprint{
 	float:left;
+	padding:0 10%;
 }
+
+#sprint h2{
+	padding: 10px 0;
+}
+
 #Links{
 	float:right;
+	padding:0 10%;
+}
+#Links h2{
+	padding:10px 0;
+}
+
+#Links a{
+	display:block;
+	text-decoration: none;
+	color:whitesmoke
+}
+
+#Links a:hover{
+	background-color:white;
+	color:#75726C;
+}
+
+.lab{
+	padding-top:150px;
+	float:left;
+}
+
+.lab p{
+	padding-right: 170px;
+	padding-left: 110px;
+}
+
+#more{
+	margin:88px 0;
 }
