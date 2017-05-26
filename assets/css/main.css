@@ -28,7 +28,8 @@ header nav img{
 	margin-left:18%;
 }
 header nav a:hover{
-	background-color: #E56385;
+	color: #E56385;
+	background-color: white;
 }
 
 #top-links{
@@ -177,7 +178,7 @@ header a{
 /*Footer, última sección*/
 footer{
 	background-color: #75726C;
-	padding:50px 100px;
+	padding:50px 100px 0 100px;
 	color:whitesmoke;
 	height:280px;
 	text-align: justify;
@@ -222,5 +223,5 @@ footer{
 }
 
 #more{
-	margin:88px 0;
+	margin:88px 0 0 0;
 }
